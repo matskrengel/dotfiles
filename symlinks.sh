@@ -16,3 +16,10 @@ ln -s $DOTFILES/.gitconfig $HOME/.gitconfig
 
 rm -rf $HOME/.gitmessage
 ln -s $DOTFILES/.gitmessage $HOME/.gitmessage
+
+# vim
+rm -rf $HOME/.vimrc
+ln -s $DOTFILES/.vimrc $HOME/.vimrc
+
+rm -rf $HOME/.vim
+ln -s $DOTFILES/.vim $HOME/.vim
