@@ -10,3 +10,6 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# dotfiles custom  bin
+export PATH="/Users/mats/.bin:$PATH"

@@ -23,3 +23,7 @@ ln -s $DOTFILES/.vimrc $HOME/.vimrc
 
 rm -rf $HOME/.vim
 ln -s $DOTFILES/.vim $HOME/.vim
+
+# setup bin folder
+rm -r $HOME/.bin
+ln -s $DOTFILES/.bin $HOME/.bin

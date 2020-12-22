@@ -43,12 +43,12 @@ brew install watch
 brew install ffmpeg
 brew install terminal-notifier
 brew install awscli
-brew install postgresql@10
 brew install gdb
 brew install tldr
 brew install asdf
 brew install pidcat # colored logcat
 brew install ack
+brew install postgresql
 
 # kubernetes
 brew install kubectx
