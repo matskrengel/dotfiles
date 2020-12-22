@@ -113,3 +113,5 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 
 # iterm shell integration - loaded through ZSH_CUSTOM=$DOTFILES
 # test -e /Users/mats/.iterm2_shell_integration.zsh && source /Users/mats/.iterm2_shell_integration.zsh || true
+
+. /usr/local/opt/asdf/asdf.sh

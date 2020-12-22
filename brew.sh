@@ -48,7 +48,6 @@ brew install gdb
 brew install tldr
 brew install asdf
 brew install pidcat # colored logcat
-brew install terraform # TODO move to asdf
 brew install ack
 
 # kubernetes

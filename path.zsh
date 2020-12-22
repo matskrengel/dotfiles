@@ -8,3 +8,5 @@ export PATH="$HOME/.node/bin:$PATH"
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
