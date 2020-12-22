@@ -55,7 +55,7 @@ alias emptytrash=" \
 "
 
 # Update installed Ruby gems, Homebrew, npm, and their installed packages
-alias brew_update="brew -v update; brew upgrade --force-bottle; brew upgrade --cask; brew cleanup; brew doctor; npm-check -g -u"
+alias brew_update="brew -v update; brew upgrade --force-bottle; brew upgrade --cask; brew cleanup; brew doctor"
 alias update_brew_npm='brew_update; npm install npm -g; npm update -g'
 
 # weather
@@ -71,3 +71,7 @@ alias tfp="terraform plan"
 alias tfa="terraform apply"
 alias tfd="terraform destroy"
 alias tfr="terraform refresh"
+
+# utils
+alias reloadshell="source $HOME/.zshrc"
+alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"

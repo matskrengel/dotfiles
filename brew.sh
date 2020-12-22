@@ -33,7 +33,8 @@ brew install mtr
 
 # dev stuff
 brew install zsh
-brew install imagemagick --with-webp
+brew install zsh-history-substring-search
+brew install imagemagick
 brew install node
 brew install pv
 brew install rename
@@ -47,7 +48,7 @@ brew install gdb
 brew install tldr
 brew install asdf
 brew install pidcat # colored logcat
-brew install terraform
+brew install terraform # TODO move to asdf
 brew install ack
 
 # kubernetes
@@ -68,6 +69,7 @@ brew install rectangle
 brew install slack
 brew install vlc
 brew install spotify
+brew install zoom
 brew install portfolioperformance
 
 # dev

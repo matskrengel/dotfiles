@@ -9,4 +9,5 @@ sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
 # symlinks
 /bin/sh symlinks.sh
 
-
+# osx
+/bin/bash osx.sh

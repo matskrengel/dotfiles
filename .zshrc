@@ -65,6 +65,8 @@ ZSH_THEME="robbyrussell"
 # see 'man strftime' for details.
 HIST_STAMPS="yyyy-mm-dd"
 
+SAVEHIST=100000
+
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$DOTFILES
 
@@ -73,17 +75,13 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git osx mix)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -103,3 +101,15 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# history substring search plugin
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+# search history with UP and DOWN arrows
+zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
+
+# iterm shell integration - loaded through ZSH_CUSTOM=$DOTFILES
+# test -e /Users/mats/.iterm2_shell_integration.zsh && source /Users/mats/.iterm2_shell_integration.zsh || true

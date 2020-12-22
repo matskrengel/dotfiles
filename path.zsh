@@ -1,3 +1,6 @@
+# brew sbin
+export PATH="/usr/local/sbin:$PATH"
+
 # Load Node global installed binaries
 export PATH="$HOME/.node/bin:$PATH"
 
