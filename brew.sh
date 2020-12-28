@@ -33,6 +33,7 @@ brew install mtr
 
 # dev stuff
 brew install zsh
+brew install zsh-syntax-highlighting
 brew install zsh-history-substring-search
 brew install imagemagick
 brew install node
@@ -70,6 +71,8 @@ brew install vlc
 brew install spotify
 brew install zoom
 brew install portfolioperformance
+brew install notion
+brew install discord
 
 # dev
 brew install visual-studio-code
