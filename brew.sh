@@ -62,6 +62,7 @@ brew install alfred3
 brew install bettertouchtool
 brew install dropbox
 brew install firefox
+brew install google-chrome
 brew install iterm2
 brew install onlyoffice
 brew install protonvpn
