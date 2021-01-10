@@ -50,6 +50,7 @@ brew install asdf
 brew install pidcat # colored logcat
 brew install ack
 brew install postgresql
+brew install jq
 
 # kubernetes
 brew install kubectx
@@ -74,6 +75,7 @@ brew install zoom
 brew install portfolioperformance
 brew install notion
 brew install discord
+brew install calibre
 
 # dev
 brew install visual-studio-code
