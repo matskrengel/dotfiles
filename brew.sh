@@ -76,6 +76,7 @@ brew install portfolioperformance
 brew install notion
 brew install discord
 brew install calibre
+brew install mactex
 
 # dev
 brew install visual-studio-code
