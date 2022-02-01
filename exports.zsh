@@ -9,3 +9,5 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+export ASDF_DIR="$(brew --prefix asdf)/libexec"

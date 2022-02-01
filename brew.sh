@@ -11,6 +11,7 @@ brew install curl
 # GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
 brew install moreutils
+brew install gcal
 # GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
@@ -35,6 +36,7 @@ brew install mtr
 brew install zsh
 brew install zsh-syntax-highlighting
 brew install zsh-history-substring-search
+brew install zsh-autosuggestions
 brew install imagemagick
 brew install node
 brew install pv
@@ -59,7 +61,7 @@ brew install kubernetes-cli
 
 # stuff
 brew install java
-brew install alfred3
+brew install alfred
 brew install bettertouchtool
 brew install dropbox
 brew install firefox
@@ -77,11 +79,13 @@ brew install notion
 brew install discord
 brew install calibre
 brew install mactex
+brew install qbserve
 
 # dev
 brew install visual-studio-code
 brew install --cask docker
-brew install insomnia
+brew install intellij-idea-ce
+brew install android-studio
 
 # Remove outdated versions from the cellar
 brew cleanup

@@ -75,7 +75,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx mix)
+plugins=(git macos mix)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,8 +103,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # history substring search plugin
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+# auto suggestions
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # search history with UP and DOWN arrows
 zmodload zsh/terminfo
@@ -114,4 +118,7 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 # iterm shell integration - loaded through ZSH_CUSTOM=$DOTFILES
 # test -e /Users/mats/.iterm2_shell_integration.zsh && source /Users/mats/.iterm2_shell_integration.zsh || true
 
-. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/libexec/asdf.sh
+
+# . /usr/local/opt/asdf/asdf.sh
+# . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash

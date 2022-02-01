@@ -55,11 +55,19 @@ alias emptytrash=" \
 "
 
 # Update installed Ruby gems, Homebrew, npm, and their installed packages
-alias brew_update="brew -v update; brew upgrade --force-bottle; brew upgrade --cask; brew cleanup; brew doctor"
-alias update_brew_npm='brew_update; npm install npm -g; npm update -g'
+alias brew_update="brew -v update; brew upgrade; brew upgrade --cask; brew cleanup; brew doctor"
+alias npm_update="npm install npm -g; npm update -g"
+alias asdf_update="asdf plugin update --all"
+alias update='brew_update; npm_update; asdf_update'
 
 # weather
 alias weather="curl -s https://www.dwd.de/DWD/wetter/radar/radfilm_bbb_akt.gif | imgcat && curl -s wttr.in/berlin"
+
+# maps
+alias maps="telnet mapscii.me"
+
+# use gcal with starting day monday and Berlin holidays
+alias cal='gcal --with-week-number --starting-day=1 --cc-holidays=DE_BE'
 
 # password generation
 alias generate_password="openssl rand -base64 12"
